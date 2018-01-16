@@ -6,9 +6,9 @@
 class EmailParser
   attr_accessor :email_list
 
-  def initialize(string)
-    @email_list = string
-  end
+  # def initialize(string)
+  #   @email_list = string
+  # end
 
   def parse
     array = @email_list.split(/[\s,]+/).uniq
